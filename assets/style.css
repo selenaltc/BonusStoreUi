@@ -1,0 +1,124 @@
+    #headerNavbar1{
+        background-color: #dcd2c6;
+        width: auto;
+    }
+        #headerNavbar1-left{
+            margin: 1em 0 1em 0;
+        }
+        #headerNavbar1-right{
+            display: inline-flex; 
+            justify-content: flex-end;
+            margin-top:1em;
+        }
+        #HeaderIcon{
+            margin-top: 5px; margin-right: 5px;
+        }
+        .text-normal{
+            margin-right: 5px
+        }
+        .text-last{
+            margin-right: 1em;
+        }
+        #storelogo{
+            height: 200px;
+            width: auto;
+            margin-left:3em;
+        }
+        #indexSearchBar{
+            margin-top: 3em;
+        }
+        #search-card{
+            background-color: #675144;
+            width: 90%;
+            height: 50px;   
+        }
+        .searchBarInput{
+            width: 90%;
+            margin: 13px 0 10px 2em;
+            border-radius: 8px;
+            border: 0;
+        }
+        #searchIcon{
+            background-color: #675144;
+            color: #dcd2c6;
+            border: 0;
+            padding-left: 10px;
+
+        }
+        #hotSearchText{
+            color: #675144;
+        }
+    #indexCarouselImg{
+        width: 90%;
+        margin: 0 0 1em 4em;
+    }
+    #indexCarouselControlLeft{
+        margin-left: 5em;
+    }
+    #indexCarouselControlRight{
+        margin-right: 5em;
+    }
+    #indexSecondNavbar{
+        display: flex; 
+        justify-content: center;
+        margin-top: 2em;
+    }
+        #shopCategory, #Leaderboard{
+            height: 100%;
+            margin: 0;
+        }
+        #shopCategoryHeader{
+            background-color: #dcd2c6;
+        }
+        #text{
+            color: #352b1f;
+        }
+        #shopCategoryLi, #cardBodyMargin, #LeaderboardBody, #LeaderboardBody2{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        #cardBodyMargin, #LeaderboardBody, #LeaderboardBody2{
+            margin-top: 10px;
+        }
+        #LeaderboardBody2{
+            margin-left: 35px;
+        }
+        #cardBodyIcon{
+            margin-top: -4px;
+        }
+        #cardBodyText{
+            margin-left: 10px;
+            color: #866850;
+        }
+        #secondAdsBanner li a{
+            background-color:#FFF; 
+            color: #352b1f;
+        }
+        #secondAdsBanner li a.active{ 
+            border:solid 1px #866850;  
+            background-color:#866850;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        #secondAdsBannerContent{
+            background-color: #866850; 
+            border-radius: 0px 10px 10px 10px; 
+            border-top: 1px #866850 solid;
+            height: 91%;
+        }
+        .banner{
+            width: 94%;
+            margin: 1em;
+            border: #dcd2c6 1px solid;
+        }
+    #indexThirdNavbar, #indexFourthNavbar{
+        margin: 2em 0 0 1em;
+    }
+        #brandName, #latestTitle{
+            color: #866850;
+        }
+        #koarenWater{
+            width: 170px;
+        }
+    

@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="../ui/assets/style.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!-- FontAwesome Icons-->
+    <script src="https://kit.fontawesome.com/47378917c0.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <header>
+          <div class="row" id="headerNavbar1">
+              <div class="col-6" id="headerNavbar1-left">
+                <b style="text-align:left; margin-left:1em">凡購物滿HKD500，全店免運費!</b>
+              </div>
+              <div class="col-6" id="headerNavbar1-right">
+                <i id="HeaderIcon" class="fas fa-shopping-cart"></i>
+                <b class="text-normal">購物車</b>
+                <i id="HeaderIcon" class="fas fa-user"></i>
+                <b class="text-normal">會員登入</b>
+                <i id="HeaderIcon" class="fas fa-tags"></i>
+                <b class="text-last">註冊</b>
+              </div>
+          </div>
+          <div id="headerNavbar2">
+            <div class="row">
+              <div class="col-3">
+                <img id="storelogo" src="assets/images/LOGO.png">
+              </div>
+              <div id="indexSearchBar" class="col-9">
+                <div id="search-card">
+                  <div class="searchBar">
+                    <input type="text" class="searchBarInput" placeholder="    搜索商品/品牌">
+                    <button id="searchIcon"><i class="fas fa-search"></i></button>
+                  </div>
+                  <span><b id="hotSearchText">熱搜: 椒井礦泉水  CJ-山菜辣椒醬拌飯  韓國甜米酒</b></span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </header>
+      <div id="indexFirstNavbar" class="row" >
+        <div class="col-12">
+          <!-- 輪播圖片 -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+            </div>
+            <div class="carousel-item">
+              <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+            </div>
+            <div class="carousel-item">
+              <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+            </div>
+          </div>
+          <!-- 左右切换按钮 -->
+          <a id="indexCarouselControlLeft" class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a id="indexCarouselControlRight" class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <div id="indexSecondNavbar" class="row">
+        <div class="col-2">
+          <div class="card" id="shopCategory" >
+            <div id="shopCategoryHeader" class="card-header">
+              <b id="text">Shopping Time</b>
+            </div>
+            <div class="card-body">
+              <li id="shopCategoryLi">
+                <img id="cardBodyIcon" src="https://img.icons8.com/ios-filled/30/866850/noodles.png"/>
+                <b id="cardBodyText">主食 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/ios-filled/30/866850/potato-chips.png"/>
+                <b id="cardBodyText">零食 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/ios-filled/30/866850/soda-cup.png"/>
+                <b id="cardBodyText">飲品 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/ios-filled/30/866850/lip-gloss.png"/>
+                <b id="cardBodyText">化妝品 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/ios-filled/30/866850/cleansing.png"/>
+                <b id="cardBodyText">護膚品 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/pastel-glyph/30./866850/baby.png"/>
+                <b id="cardBodyText">嬰兒用品 </b>
+              </li>
+              <li id="cardBodyMargin">
+                <img id="cardBodyIcon" src="https://img.icons8.com/pastel-glyph/30/866850/shower-and-tub--v1.png"/>
+                <b id="cardBodyText">沐浴用品 </b>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul class="nav nav-tabs" id="secondAdsBanner">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#indexLatest">
+                <b>最新報到</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#indexRecommend">
+                <b>小編推介</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#indexHotSale">
+                <b>全城熱賣</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#indexPackageOffer">
+                <b>套裝優惠</b>
+              </a>
+            </li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content" id="secondAdsBannerContent">
+            <div class="tab-pane active" id="#indexLatest">
+              <img class="banner" src="../ui/assets/images/1.png">
+            </div>
+            <div class="tab-pane fade" id="indexRecommend">
+              <img class="banner" src="../ui/assets/images/2.png">
+            </div> 
+            <div class="tab-pane fade" id="indexHotSale">
+              <img class="banner" src="../ui/assets/images/3.png">
+            </div>
+            <div class="tab-pane fade" id="indexPackageOffer">
+              <img class="banner" src="../ui/assets/images/4.png">
+            </div>
+          </div>            
+        </div>
+        <div class="col-3">
+          <div class="card" id="Leaderboard">
+            <div id="shopCategoryHeader" class="card-header">
+              <b id="text">Bonus 排行榜</b>
+            </div>
+            <div class="card-body">
+              <li id="shopCategoryLi">
+                <img src="https://img.icons8.com/ios-glyphs/30/FFD700/trophy.png"/>
+                <b id="cardBodyText">椒井有氣礦泉水</b>
+              </li>
+              <li id="LeaderboardBody">
+                <img src="https://img.icons8.com/ios-glyphs/30/C0C0C0/trophy.png"/>
+                <b id="cardBodyText">CJ - 海帶湯飯</b>
+              </li>
+              <li id="LeaderboardBody">
+                <img src="https://img.icons8.com/ios-glyphs/30/B87333/trophy.png"/>
+                <b id="cardBodyText">CJ - 火雞蓋飯</b>
+              </li>
+              <li id="LeaderboardBody2">
+                <b id="cardBodyText" >CJ - 炸醬飯</b>
+              </li>
+              <li id="LeaderboardBody2">
+                <b id="cardBodyText">黃油簿脆WAFFLE餅</b>
+              </li>
+              <li id="LeaderboardBody2">
+                <b id="cardBodyText">韓國傳統甜米汁</b>
+              </li>
+              <li id="LeaderboardBody2">
+                <b id="cardBodyText">枳椇子茶500ML</b>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="indexThirdNavbar" class="row">
+        <b><u id="brandName">本店品牌</u></b>
+      </div>
+
+      <div id="indexThirdNavbar" class="row">
+        <div id="brandlogo" class="row">
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+          <div class="col-2">
+            <img id="koarenWater" src="../ui/assets/images/brand/korenwater.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="indexThirdNavbar" class="row">
+        <b><u id="latestTitle">最新報到</u></b>
+      </div>
+      
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-12">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+           
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+              </div>
+              <div class="carousel-item">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+              </div>
+              <div class="carousel-item">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div id="indexThirdNavbar" class="row">
+        <b><u id="latestTitle">小編推介</u></b>
+      </div>
+      
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-12">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+           
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+              </div>
+              <div class="carousel-item">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+              </div>
+              <div class="carousel-item">
+                <img id="indexCarouselImg" src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div id="indexFourthNavbar" class="row">
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>貨品名稱</h4>
+            </div>
+            <img class="card-img-bottom" src="https://static.runoob.com/images/mix/img_avatar.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row" style="background-color: #dcd2c6; margin-top: 2em;">
+          <div class="col-3" style="margin: 3em 0 10em 3em;">
+            <h1><b style="color: #866850;">網站指南</b></h1>
+            <a href="" style="color: #352b1f; font-weight: bold;">最新動態</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">購物及運費指南</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">銷售條款及細則</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">退款政策</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">聯絡我們</a>
+          </div>
+          <div class="col-3" style="margin: 7em 0 10em 3em;">
+            <a href="" style="color: #352b1f; font-weight: bold;">Facebook</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">Instagram</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">Carousell</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">MeWe</a><br />
+            <a href="" style="color: #352b1f; font-weight: bold;">HKTV Mall</a>
+          </div>
+          <div class="col-3" style="margin: 3em 0 10em 3em;">
+            <h1><b style="color: #866850;">公司資料</b></h1>
+            <a style="color: #352b1f; font-weight: bold;">公司地址:</a><br />
+            <a style="color: #352b1f; font-weight: bold;">香港火炭山尾街31-35號</a><br />
+            <a style="color: #352b1f; font-weight: bold;">華樂工業大廈F座1450室</a><br /><br />
+            <a href="">
+              <i class="fab fa-whatsapp"  style="color: #352b1f; font-weight: bold;">Whatsapp: +852 9580-7132</i>
+            </a><br />
+            <a href="">
+              <img src="https://img.icons8.com/ios-filled/20/352b1f/phone-not-being-used.png"/>
+              <a style="color: #352b1f; font-weight: bold;">+852</a>
+            </a><br />
+          </div>
+        </div>
+        
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
